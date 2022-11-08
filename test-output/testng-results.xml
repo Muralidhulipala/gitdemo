@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T13:43:20 IST" name="Suite" finished-at="2022-01-25T13:43:20 IST" duration-ms="132">
+    <groups>
+      <group name="smoke">
+        <method signature="Testng_example.mobiletest()[pri:0, instance:testngexample.Testng_example@460d0a57]" name="mobiletest" class="testngexample.Testng_example"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-01-25T13:43:20 IST" name="Test" finished-at="2022-01-25T13:43:20 IST" duration-ms="97">
+      <class name="testngexample.Testng_example">
+        <test-method signature="mobiletest()[pri:0, instance:testngexample.Testng_example@460d0a57]" started-at="2022-01-25T13:43:20 IST" name="mobiletest" finished-at="2022-01-25T13:43:20 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobiletest -->
+      </class> <!-- testngexample.Testng_example -->
+    </test> <!-- Test -->
+    <test started-at="2022-01-25T13:43:20 IST" name="othersuite" finished-at="2022-01-25T13:43:20 IST" duration-ms="132">
+      <class name="testngexample.testnftwo">
+        <test-method signature="g(java.lang.String)[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="g" finished-at="2022-01-25T13:43:20 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method signature="a()[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="a" finished-at="2022-01-25T13:43:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method signature="aa()[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="aa" finished-at="2022-01-25T13:43:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aa -->
+        <test-method signature="aaa()[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="aaa" finished-at="2022-01-25T13:43:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaa -->
+        <test-method signature="aaag(java.lang.String,java.lang.String)[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="aaag" data-provider="getdata" finished-at="2022-01-25T13:43:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dhulipala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaag -->
+        <test-method signature="aaag(java.lang.String,java.lang.String)[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="aaag" data-provider="getdata" finished-at="2022-01-25T13:43:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nandu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dhulipala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaag -->
+        <test-method signature="aaag(java.lang.String,java.lang.String)[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="aaag" data-provider="getdata" finished-at="2022-01-25T13:43:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prasanna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dhulipala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaag -->
+        <test-method signature="b()[pri:0, instance:testngexample.testnftwo@3427b02d]" started-at="2022-01-25T13:43:20 IST" name="b" finished-at="2022-01-25T13:43:20 IST" depends-on-methods="testngexample.testnftwo.g" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+      </class> <!-- testngexample.testnftwo -->
+    </test> <!-- othersuite -->
+  </suite> <!-- Suite -->
+</testng-results>

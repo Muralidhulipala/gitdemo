@@ -1,0 +1,19 @@
+name: Suite
+threadCount: 2
+parallel: tests
+configFailurePolicy: skip
+listeners:
+  - testngexample.listenertest
+tests:
+  - name: Test
+  parallel: classes
+  includedGroups: [ smoke ]
+  classes:
+    - testngexample.Testng_example
+
+  - name: othersuite
+  parallel: tests
+  parameters: { URL: google.com }
+  classes:
+    - testngexample.testnftwo
+

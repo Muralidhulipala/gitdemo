@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="testngexample.listenertest"/>
+</listeners>
+  <test parallel="classes" thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
+  <classes>
+  <class name="testngexample.Testng_example"/>
+  </classes>
+  </test>
+  <test name="othersuite">
+  <parameter name="URL" value="google.com"/>
+  <classes>
+  <class name="testngexample.testnftwo">
+  
+  
+  <!-- //<methods>
+  <include name="a.*"/>
+  </methods> -->
+  </class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
+	
